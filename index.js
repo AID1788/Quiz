@@ -5,6 +5,10 @@ let question_field = document.querySelector('.question')
 let answer_buttons = document.querySelectorAll('.answer')
 let start_button = document.querySelector('.start-btn')
 
+function StartQuiz() {
+    window.location.href = 'quiz.html'
+}
+
 function randint(min, max) {
     return Math.round(Math.random() * (max - min) + min)
 }
